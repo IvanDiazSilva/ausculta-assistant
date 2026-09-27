@@ -29,3 +29,31 @@ Todos los archivos de la microtarea AA-01 han sido creado/actualizados con el co
 
 ### Próxima microtarea
 AA-02 — Crear la estructura base del backend (modelos, repositorios, API endpoints mínimos).
+
+## 2026-09-27 — AA-02
+
+### Completado
+
+- Creado el proyecto backend con Spring Boot.
+- Configurado Java 21 y Maven.
+- Añadido el endpoint `GET /api/health`.
+- Añadido `HealthResponse` como record Java.
+- Añadidas pruebas del contexto y del endpoint.
+- Verificada la compilación con `mvn test`.
+- Verificada la compilación con `mvn clean package`.
+- Corregido el uso innecesario de Lombok.
+
+### Decisiones
+
+- No se utiliza Spring Boot Actuator en esta microtarea.
+- No se utiliza Lombok.
+- El endpoint de salud es propio.
+- Todavía no se han creado entidades ni base de datos.
+
+### Estado
+
+AA-02 lista para commit y Pull Request.
+
+### Próxima microtarea
+
+AA-03 — Configurar la base de datos local y las migraciones.
