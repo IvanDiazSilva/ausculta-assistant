@@ -1,0 +1,44 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java
+target/
+*.class
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+
+# Logs
+*.log
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Datos locales de la aplicación
+/data/
+/storage/
+/imports/
+/exports/
+
+# Datos reales de medición
+**/PEGASE/
+**/campañas-reales/
+**/imagenes-reales/
+**/*.jpg
+**/*.jpeg
+**/*.png
