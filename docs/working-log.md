@@ -57,3 +57,28 @@ AA-02 lista para commit y Pull Request.
 ### Próxima microtarea
 
 AA-03 — Configurar la base de datos local y las migraciones.
+
+## AA-03 — Configurar SQLite y Flyway
+
+### Estado
+
+Completada.
+
+### Trabajo realizado
+
+- Configurado SQLite como base de datos local.
+- Añadido spring-boot-starter-jdbc.
+- Añadido el driver SQLite.
+- Añadido Flyway.
+- Configurada la conexión SQLite en application.yml.
+- Configurada la ubicación de migraciones.
+- Preparada la carpeta backend/src/main/resources/db/migration/.
+- Verificado el arranque de Spring Boot.
+- Ejecutados correctamente mvn test y mvn package.
+- Ejecutado correctamente git diff --check.
+- No se crearon tablas de negocio.
+- No se incluyeron datos reales de PEGASE.
+
+### Siguiente microtarea
+
+AA-04 — Crear entidades Petición y Tramo.
